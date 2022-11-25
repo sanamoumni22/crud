@@ -1,0 +1,21 @@
+{
+  "name": "genericcrud",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-generic-crud": "^1.0.3-b",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^6.7.2",
+    "morgan": "~1.9.1",
+    "nbo-rest": "^3.4.7",
+    "nodemon": "^2.0.20",
+    "twig": "^1.15.4"
+  }
+}

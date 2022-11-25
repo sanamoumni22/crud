@@ -1,0 +1,28 @@
+<html>
+<body>
+<a href="/events/">Liste des evenements</a>
+<form method="post" action="/events/search">
+<input type="text" name="Csearch" placeholder="city" />
+<input type="Number" name="NBsearch" placeholder="Nombre des places"  />
+<input type="submit" value="OK" />
+
+</form>
+<table border="1">
+<tr>
+<td>City</td><td>NB Place</td><td>Etat</td>
+</tr>
+{% for data in item %}
+<tr>
+<td>{{data.city}}</td>
+<td>{{data.nbplace}}</td>
+<td>{{data.etat}}</td>
+</tr>
+
+{% endfor %}
+
+
+</table>
+
+
+</body>
+</html>
